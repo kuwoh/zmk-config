@@ -12,8 +12,9 @@
 #define LOWER 1
 #define RAISE 2
 
-#define L_SPC &lt LOWER SPACE
-#define R_RET &lt RAISE RET
+#define L_SPC <&lt LOWER SPACE>
+#define R_RET <&lt RAISE RET>
+
 
 / {
    keymap {
